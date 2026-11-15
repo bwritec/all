@@ -1,0 +1,56 @@
+.nav
+{
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav > li
+{
+    position: relative;
+    display: block;
+}
+
+.nav > li > a
+{
+    position: relative;
+    padding: 10px 16px;
+    display: block;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    background-color: #eeeeee;
+    text-decoration: none;
+}
+
+.nav > li.disabled > a
+{
+    color: #777777;
+}
+
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus
+{
+    background-color: transparent;
+    text-decoration: none;
+    cursor: not-allowed;
+    color: #777777;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus
+{
+    background-color: #eeeeee;
+    border-color: #337ab7;
+}
+
+.nav .nav-divider
+{
+    background-color: #e5e5e5;
+    overflow: hidden;
+    margin: 9px 0;
+    height: 1px;
+}

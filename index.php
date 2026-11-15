@@ -27,6 +27,7 @@
      -->
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/reset.css">
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/grid.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/nav.css">
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/panel.css">
 
     <!--
@@ -64,31 +65,23 @@
                 </div>
 
                 <div class="col panel-menu">
-                    
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="<?= env('url'); ?>/index.php" class="nav-link active">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="<?= env('url'); ?>/docs/index.php" class="nav-link">
+                                Docs
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="<?= env('url'); ?>/index.php">
-                            Home
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= env('url'); ?>/docs/index.php">
-                            Docs
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <div class="container mt-2">
         <div class="row">

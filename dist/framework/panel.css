@@ -43,3 +43,21 @@
 {
     color: #000000;
 }
+
+.panel-menu .nav
+{
+    width: 100%;
+    margin: 0;
+}
+
+.panel-menu .nav-item
+{
+    float: left;
+}
+
+.panel-menu .nav-item a
+{
+    text-decoration: none;
+    line-height: 45px;
+    padding: 0 16px;
+}
