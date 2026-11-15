@@ -16,12 +16,12 @@
     /**
      * Nome do site.
      */
-    define("PROVIDER_NAME", "Hospede");
+    define("PROVIDER_NAME", "ALL");
 
     /**
      * Url do site.
      */
-    define("PROVIDER_URL", "http://hospede.com.br");
+    define("PROVIDER_URL", "http://all.com.br");
 
     /**
      * Idioma do site.
